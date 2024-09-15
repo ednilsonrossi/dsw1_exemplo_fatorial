@@ -29,6 +29,11 @@
 		
     
 		<%
+			/** 
+			 * A alteração aqui é apenas esse comentário no código
+			 * que iremos comitar e fazer o push.
+			 */
+			
 			int number = 0, fat = 0;
 			String input = request.getParameter("text_number");
 			if (input != null && !input.isEmpty()) {
