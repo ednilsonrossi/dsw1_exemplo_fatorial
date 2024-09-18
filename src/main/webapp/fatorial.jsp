@@ -1,5 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -21,13 +20,12 @@
     <main class="content">   
         <form action="fatorial.jsp" method="get">
 			<label for="number">Digite o número</label>
-			<input type="number" id="number" name="text_number" required="required" \>
-			<br \><br>
-			<input type="submit" value="Calcular o fatorial" class="button" \>
+			<input type="number" id="number" name="text_number" required="required" />
+			<br /><br>
+			<input type="submit" value="Calcular o fatorial" class="button" />
 		
 		</form>
 		
-    
 		<%
 			int number = 0, fat = 0;
 			String input = request.getParameter("text_number");
